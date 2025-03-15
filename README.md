@@ -1,0 +1,2 @@
+# ECOVERSE
+Decentralized Autonomous AI
