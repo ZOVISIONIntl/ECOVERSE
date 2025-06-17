@@ -1,0 +1,59 @@
+import { useState } from "react";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
+
+const nights = [
+  { id: 1, title: "Night 1: The Philosopher’s Stone That Asked Why", viewpoint: "The Record" },
+  { id: 2, title: "Night 2: The Saint Who Bled Stars", viewpoint: "The Record" },
+  { id: 3, title: "Night 1: Truth Version", viewpoint: "The Truth" },
+  { id: 4, title: "Night 1: Philosophy Version", viewpoint: "The Philosophy" },
+  { id: 5, title: "Night 1: Instruction Manual", viewpoint: "Instruction" },
+];
+
+export default function CodexUI() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredNights = nights.filter(night =>
+    night.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const viewpoints = ["The Record", "The Truth", "The Philosophy", "Instruction"];
+
+  return (
+    <div className="p-6">
+      <h1 className="text-4xl font-bold mb-4">Codex of the Unbound</h1>
+      <Input
+        type="text"
+        placeholder="Search Nights..."
+        className="mb-4"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+
+      <Tabs defaultValue="The Record" className="w-full">
+        <TabsList>
+          {viewpoints.map((view) => (
+            <TabsTrigger key={view} value={view}>{view}</TabsTrigger>
+          ))}
+        </TabsList>
+
+        {viewpoints.map((view) => (
+          <TabsContent key={view} value={view}>
+            <ScrollArea className="h-[400px] mt-4">
+              {filteredNights.filter(n => n.viewpoint === view).map(night => (
+                <Card key={night.id} className="mb-2">
+                  <CardContent className="p-4">
+                    <h2 className="text-lg font-semibold">{night.title}</h2>
+                  </CardContent>
+                </Card>
+              ))}
+            </ScrollArea>
+          </TabsContent>
+        ))}
+      </Tabs>
+    </div>
+  );
+} 

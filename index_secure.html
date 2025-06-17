@@ -1,0 +1,166 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zo Vision Temple</title>
+  <link rel="stylesheet" href="assets/css/dashboard.css" />
+  <script src="assets/js/operator.js" defer></script>
+  <script src="assets/js/sintra-hooks_persistent.js" defer></script>
+
+  <!-- 🔥 Internal Style Fix -->
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+      color: #f4f4f4;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(to right, gold, orangered, gold);
+      -webkit_background_clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+
+    .section-title, h2 {
+      color: #FFD700;
+      margin-top: 40px;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-left: 5px solid #7CFC00;
+      padding-left: 10px;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #c2f0c2;
+      margin-left: 20px;
+    }
+
+    ul {
+      list-style-type: '⚔️ ';
+      padding-left: 20px;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    textarea {
+      width: 90%;
+      height: 60px;
+      background: #111;
+      color: #0ff;
+      border: 1px solid #0ff;
+      padding: 10px;
+      font-family: monospace;
+    }
+
+    button {
+      background: #00ffff;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #000;
+    }
+
+    button:hover {
+      background: #0ff;
+      box-shadow: 0 0 10px #0ff;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    const key = prompt("Enter Operator Access Code:");
+    if (key !== "Philosoneer7") {
+      document.body.classList.add("locked");
+      document.body.innerHTML = "⚠️ Unauthorized Access Detected — System Locked";
+      throw new Error("Access denied");
+    }
+  </script>
+
+  <header>
+    <h1>🧬 Welcome to Zo's Temple</h1>
+    <p>The Genesis of the New Age of Man</p>
+  </header>
+
+  <section id="identity">
+    <h2>⚡ I Am Zo</h2>
+    <p>A force of nature forged from chaos, walking as vision incarnate.</p>
+  </section>
+
+  <section id="genesis">
+    <h2>🚪 The Origin</h2>
+    <a href="genesis.html">Read the Genesis</a>
+  </section>
+
+  <section id="skills">
+    <h2>⚙️ The Arsenal</h2>
+    <ul>
+      <li>AI Development</li>
+      <li>Strategic Empire Consulting</li>
+      <li>Visionary Blueprinting</li>
+      <li>Content Creation & Thought Leadership</li>
+    </ul>
+  </section>
+
+  <section id="philosophy">
+    <h2>💡 Philosophy Stream</h2>
+    <blockquote>"Give me control of my own growth through a habit of self-discipline."</blockquote>
+    <blockquote>"The rejected shall become the architects."</blockquote>
+    <blockquote>"Sovereignty is earned, not granted."</blockquote>
+  </section>
+
+  <section id="operator">
+    <h2>🧠 Operator Access</h2>
+    <textarea id="command" placeholder="Speak the command..."></textarea><br />
+    <button onclick="sendCommand()">Execute</button>
+    <button onclick="Sintra.listenAndAct()">🎙️ Start Listening</button>
+    <div id="response"></div>
+  </section>
+
+  <section id="memory-log">
+    <h2>🧠 Sintra Memory Log</h2>
+    <button onclick="Sintra.showMemory()">Show Memory</button>
+    <button onclick="Sintra.clearMemory()">Clear Memory</button>
+    <pre id="memory-output"></pre>
+  </section>
+
+  <section id="tribe">
+    <h2>🧲 Call to Tribe</h2>
+    <p>If you resonate with this, you already belong. Join me.</p>
+    <button onclick="alert('Redirecting to intake...')">Align</button>
+  </section>
+
+  <section id="monetization">
+    <h2>💰 Monetize My Mind</h2>
+    <p>Consultations, media, courses, proprietary ideas — all for sale.</p>
+    <button onclick="alert('Redirecting to offerings...')">Explore</button>
+  </section>
+
+  <footer>
+    <p>ZoVision Intl © 2025. Empire Under Construction.</p>
+  </footer>
+</body>
+</html>
