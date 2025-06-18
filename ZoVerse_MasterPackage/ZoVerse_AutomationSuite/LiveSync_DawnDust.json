@@ -1,0 +1,10 @@
+{
+  "dawn": {
+    "active": true,
+    "capabilities": ["notarize", "register_ip", "inject_contract", "monitor_zoverse"]
+  },
+  "dust": {
+    "active": true,
+    "capabilities": ["execute_contracts", "log_assets", "track_ai_actions"]
+  }
+}

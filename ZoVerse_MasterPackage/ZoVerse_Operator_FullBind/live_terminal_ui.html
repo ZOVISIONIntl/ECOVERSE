@@ -1,0 +1,11 @@
+<div id="terminal" style="background:#1a1a1a;padding:15px;border-radius:10px;margin-top:20px;color:#00ff00;font-family:monospace;">
+    <h3>Real-Time Command Log</h3>
+    <pre id="log"></pre>
+</div>
+
+<script>
+function logMessage(msg) {
+    const log = document.getElementById("log");
+    log.textContent += "> " + msg + "\n";
+}
+</script>
