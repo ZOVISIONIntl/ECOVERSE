@@ -1,0 +1,1 @@
+// Scan for latent potential in public users, propose Codex-aligned use

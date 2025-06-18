@@ -1,0 +1,1 @@
+// Notifies users/AI of resolution outcomes and offers realignment paths

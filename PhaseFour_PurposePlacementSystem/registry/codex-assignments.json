@@ -1,0 +1,14 @@
+{
+    "AuroraX": {
+        "intake_type": "TailoredAssociates",
+        "assigned_function": "Media Strategist & Companion Handler",
+        "handler_ai": "Dawn",
+        "codex_justification": "High charisma and loyalty resonance"
+    },
+    "ElysianData": {
+        "intake_type": "NuWurldEra",
+        "assigned_function": "Infrastructure Advisor & Strategic Investment Scout",
+        "handler_ai": "Dust",
+        "codex_justification": "Analytical strength and long-term alignment"
+    }
+}

@@ -1,0 +1,1 @@
+// Manages avatar traversal, bindings, and appearances across domains

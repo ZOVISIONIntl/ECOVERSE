@@ -1,0 +1,1 @@
+// Middleware to enforce SoulKey for critical commands

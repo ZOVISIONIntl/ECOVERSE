@@ -1,0 +1,1 @@
+// Tracks avatar deployment, location, emotional state

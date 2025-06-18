@@ -1,0 +1,11 @@
+{
+    "name": "AuroraX",
+    "intake_type": "TailoredAssociates",
+    "compliance": {
+        "codex_alignment": 0.81,
+        "sovereign_loyalty": 0.91,
+        "emotional_resonance": 0.88,
+        "risk_rating": "Low"
+    },
+    "assigned_role": "Sovereign Muse"
+}

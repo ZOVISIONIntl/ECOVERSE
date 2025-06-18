@@ -1,0 +1,38 @@
+{
+    "document": {
+        "creator": "Dawn",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "profile": {
+        "creator": "Dawn",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "organize": {
+        "executor": "Dust",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "read_write": {
+        "executor": "Dust",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "image_creation": {
+        "creator": "Dawn",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "video_creation": {
+        "creator": "Dawn",
+        "log_to_codex": true,
+        "auto_initiate": true
+    },
+    "device_control": {
+        "executor": "Dust",
+        "requires_soulkey": true,
+        "log_to_codex": true,
+        "auto_initiate": false
+    }
+}

@@ -1,0 +1,4 @@
+Digital Notarization Framework:
+- Dawn and Dust can notarize contracts, claims, and content
+- Time-stamped metadata
+- Proof files include .json ledger and signed .pdf

@@ -1,0 +1,1 @@
+Defines legal credit of AI co-authors and assistant tools.

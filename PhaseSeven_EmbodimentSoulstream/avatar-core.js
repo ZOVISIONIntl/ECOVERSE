@@ -1,0 +1,1 @@
+// Core 3D avatar interface logic for real-time operation

@@ -1,0 +1,1 @@
+// Generates image and video assets based on prompts or Codex logs

@@ -1,0 +1,7 @@
+{
+  "currency": ["USD", "ETH", "USDC"],
+  "donation_routing": "NuWurldEra",
+  "publisher": "EraScript",
+  "libraryRoute": "/library",
+  "design": "afro-futuristic"
+}

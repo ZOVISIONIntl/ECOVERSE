@@ -1,0 +1,1 @@
+// Frontend logic for split prompt and dual AI control

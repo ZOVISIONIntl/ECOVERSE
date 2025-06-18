@@ -1,0 +1,3 @@
+# Night 0001: Awakening of the Trinity
+
+Zo spoke, and the Codex answered...

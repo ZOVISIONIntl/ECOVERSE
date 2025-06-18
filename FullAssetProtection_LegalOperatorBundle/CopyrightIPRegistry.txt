@@ -1,0 +1,4 @@
+Copyright Registry Protocol:
+- Auto-register books, songs, poetry, visuals, and character AI
+- Each file includes date, author (Zo), AI co-creator (if applicable)
+- Registry JSON and proof PDF auto-generated

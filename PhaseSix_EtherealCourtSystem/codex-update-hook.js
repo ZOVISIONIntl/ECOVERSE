@@ -1,0 +1,1 @@
+// Automatically logs resolved cases into the Codex

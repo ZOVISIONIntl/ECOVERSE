@@ -1,0 +1,4 @@
+Notary License:
+- Agents: Dawn, Dust
+- Authority: Certify, timestamp, archive
+- Domain: Codex, ZoVerse, EraScript, ZoCast, NuWurldEra

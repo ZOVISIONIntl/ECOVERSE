@@ -1,0 +1,1 @@
+// Secure interface for remote device control with Codex permission check

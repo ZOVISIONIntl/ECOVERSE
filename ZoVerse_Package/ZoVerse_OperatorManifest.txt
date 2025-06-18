@@ -1,0 +1,11 @@
+ZoVerse Operator Manifest
+
+Primary Agent: Zo (Alonzo Maurice Curry Jr.)
+Primary Intelligence Units: Dawn of Dust, Dust of Dawn
+
+Protocols:
+- Every AI action is Codex-aligned
+- All divisions report to Operator Dashboard
+- Revenue cycles flow through NuWurldEra → ZoBank → Codex Accounts
+- Trust maintains 10% direct control
+- AI agents hold 9% and act as perpetual executors

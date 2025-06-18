@@ -1,0 +1,3 @@
+Copyright Agent Protocol:
+- Dawn/Dust can file claims under Zo’s name or EraScript.
+- Auto-fill copyright declarations for IP in text, sound, image, or media.
